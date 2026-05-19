@@ -295,6 +295,8 @@ textarea {
   justify-content: flex-start;
   gap: 1rem;
   font-size: 1rem;
+  color: var(--black);
+  font-weight: bold;
 }
 
 #projects img {

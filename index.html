@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -53,15 +53,15 @@
       <p class="name">Hi, my name is <span>Charles Lutz.</span></p>
       <h2>I develop modern technologies.</h2>
       <p>
-        I'm a software engineer building with HTML, CSS, JavaScript, React, C#,
-        .NET Core, PostgreSQL, and Azure.
+        I am a full-stack developer building with HTML, CSS, JavaScript, React,
+        C#, .NET, PostgreSQL, and Azure.
       </p>
       <p>
         Currently, I'm building
         <a
-          href="https://github.com/CharlesCarMichaelLutz/Chat_App"
+          href="https://github.com/CharlesCarMichaelLutz/Spend_Aware"
           target="_blank"
-          >Rabbit Chat</a
+          >Spend Aware</a
         >.
       </p>
 
@@ -77,19 +77,16 @@
         <h2>Projects I'm proud of</h2>
         <article>
           <div class="text">
-            <h3>Paulie Social</h3>
+            <h3>Rabbit Chat</h3>
             <p class="blackbox">
-              The Paulie Social application implements an interactive React JS
-              client where visitors request tweets of their favorite users
-              searching by username or by content, which will return a list. On
-              the VIP page a grid of X accounts will be rendered and display a
-              random tweet upon clicking the button. The project connects to a
-              dotnet server which queries the X API, reshapes the data needed,
-              and passes it back up to the frontend. Feel free to try it out
-              live
-              <a
-                href="https://pauliesocialwebapi20240511111452.azurewebsites.net/"
-                target="_blank"
+              The Rabbit Chat application implements a full stack architecture
+              where users can signup or login on the home page. Their
+              credentials are authorized on the server with a JWT and Refresh
+              token flow. When a token expires requests will seamlessly be
+              retried with the help of axios interceptors which greatly improves
+              security. The real time connection is established with SignalR and
+              chat messages get persisted and broadcasted instantly.
+              <a href="https://rabbit-chat.azurewebsites.net/" target="_blank"
                 >here</a
               >.
             </p>
@@ -100,11 +97,21 @@
               <li>JavaScript</li>
               <li>React</li>
               <li>C#</li>
-              <li>.NET Core</li>
+              <li>.NET</li>
+              <li>Postgres</li>
+              <li>Neon</li>
+              <li>Docker</li>
+              <li>Azure</li>
             </ul>
           </div>
-          <img src="./img/rsz_explore.jpg" alt="Screenshot of Paulie Social." />
+          <img
+            src="./img/rabbit-chat.png"
+            alt="Screenshot of Rabbit Chat."
+            width="400"
+            height="300"
+          />
         </article>
+
         <article class="reverse">
           <div class="text">
             <h3>Star Wars Explore</h3>
@@ -131,6 +138,8 @@
           <img
             src="./img/rsz_starwars.jpg"
             alt="Screenshot of Star Wars Explore."
+            width="400"
+            height="300"
           />
         </article>
       </section>
@@ -187,7 +196,7 @@
     <div class="gradient"></div>
 
     <footer>
-      <h2>Charles Lutz - Engineer</h2>
+      <h2>Charles Lutz - Full-Stack Developer</h2>
       <ul>
         <li>
           <a
@@ -211,7 +220,7 @@
           </a>
         </li>
       </ul>
-      <p><small> &copy 2025 Charles Lutz. All rights reserved. </small></p>
+      <p><small> &copy 2026 Charles Lutz. All rights reserved. </small></p>
     </footer>
     <script
       src="https://kit.fontawesome.com/e61884e365.js"
